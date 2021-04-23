@@ -31,7 +31,7 @@ router.get('/', function(req, res, next) {
                 //console.log($("._9d5j").html());
                 var url   = $('body._9l9u').html(); //.children('div').eq(0).children('').attr('href');
                 var about = url.search('ABOUT');
-                var parameter = url.substr(about + 415, 147 );
+                var parameter = url.substr(about + 415, 148 );
 
                 //results.push({temp});
                 res.send(parameter);
